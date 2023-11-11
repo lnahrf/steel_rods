@@ -58,7 +58,7 @@ import numpy as np
 def main():
     digits = 8
     prefix = "05"
-    possibilities = 8 ** digits
+    possibilities = 10 ** digits
 
     template = np.random \
                  .choice(possibilities, size=possibilities, replace=False) \
@@ -74,7 +74,7 @@ def main():
 if __name__ == "__main__": main()
 ```
 
-I used Python’s NumPy to generate 8^8 possibilities and added the 2-digit static prefix to every line. The script took about 5 minutes to generate a list with 16,000,000 possibilities. Now that we have a word list (or a phone list) we can use tools like Hashcat along with our GPU to crack the captured handshake’s password.
+I used Python’s NumPy to generate the required possibilities and added the 2-digit static prefix to every line. The script took about 5 minutes to generate a list with 100,000,000 possibilities. Now that we have a word list (or a phone list) we can use tools like Hashcat along with our GPU to crack the captured handshake’s password.
 
 Take a look at Hashcat and their quick guide on [cracking WPA/WPA2](https://hashcat.net/wiki/doku.php?id=cracking_wpawpa2). Using this and the wordlist we created, we should be able to crack a password in less than 10 minutes under the right conditions.
 

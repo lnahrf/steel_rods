@@ -3,7 +3,7 @@ title: "Internet Cafe: Basics of getting access into Wifi networks around you"
 datePublished: Fri Nov 10 2023 09:00:09 GMT+0000 (Coordinated Universal Time)
 cuid: close0ezg000d09lah256h1j6
 slug: internet-cafe-basics-of-getting-access-into-wifi-networks-around-you
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/2m71l9fA6mg/upload/bee6c8ae441cf6a08b532791c7cd5127.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1699748633599/cfd43aa0-b90f-45b4-93ea-5fbe77bd0997.jpeg
 tags: python, hacking, wifi, bruteforce, cybersecurity-1
 
 ---

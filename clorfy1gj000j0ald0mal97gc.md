@@ -60,7 +60,7 @@ Therefore, they currently have no control over their own money until they comply
 
 If you are selling a vintage Gameboy DMG in pristine condition with the original Pokémon games that your dad bought you 30 years ago - I should be able to pay you $150 (or whatever price we both agree on) without anyone taking a chunk off that transaction, or even knowing it happened. Note that your father already paid his taxes for the transaction when he purchased the Gameboy, 30 years ago.
 
-A healthy, legal grey market keeps the cash circulation going because ordinary people who are not business or legal entities can trade between themselves, not having to worry about additional taxes or privacy issues (data mining).
+A healthy, legal grey market keeps the cash circulation going because ordinary people who are not businesses or legal entities can trade between themselves, not having to worry about additional taxes or privacy issues (data mining).
 
 It is also worth mentioning that if society went completely cashless, we would be solely dependent on a software system – which (I am sure we can all agree) are all just sand castles riddled with bugs and potential exploits, waiting for a wave big enough to wash them away (or raise a critical bug alert on a Friday night).
 

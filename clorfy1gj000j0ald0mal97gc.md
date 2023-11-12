@@ -10,7 +10,7 @@ tags: ai, data-science, privacy, finance, politics
 
 Just a heads up, this article is written from a strong perspective on privacy, autonomy, and financial freedom (with a focus on data mining, AI, and the future). If you prefer less opinionated pieces, you may want to skip this one. However, if you are open to a civil discussion about these topics, you are always welcome to comment.
 
-Imagine a world, where everything and anything you purchase is tightly regulated by a governing entity. If you want to purchase a product – it has to follow *extreme rules and regulations* to be viable for purchase. If it does not follow regulations, you have no physical way of actually buying it (or for it to exist). Now Imagine this entity is constantly changing and updating its regulations, allowing the market to be ruled by one specific brand because it is the only brand that follows the exact rules and regulations.
+Imagine a world, where everything and anything you purchase is tightly regulated by a governing entity. If you want to purchase a product – it has to follow *extreme rules and regulations* to be viable for purchase. If it does not follow regulations, you have no physical way of actually buying it (or for it to exist). Now imagine this entity is constantly changing and updating its regulations, allowing the market to be ruled by one specific brand because it is the only brand that follows the exact rules and regulations.
 
 Think about the implications of such a reality, every decision you make will have to comply with these entities’ agenda, and since those entities mostly care about their profits, you will essentially have no freedom of choice.
 

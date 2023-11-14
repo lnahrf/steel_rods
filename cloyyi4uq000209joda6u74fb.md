@@ -127,7 +127,7 @@ user.address = 'P.Sherman 42 Wallaby Way, Sydney'
 
 As you can see, I made sure my state manager was as simple as they could be. My goal was to get rid of having to wrap your head around reducers, middlewares and extremely complicated configurations just to assign some variables.
 
-Now, everything works by assigning variables! want to set up a listener? Assign a callback function to the variable. Want to edit the value and emit an event? Just assign a new value.
+Now, everything works by assigning variables! Want to set up a listener? Assign a callback function to the variable. Want to edit the value and emit an event? Just assign a new value.
 
 To this day I don't understand why popular state managers have to be so complex, maybe I never will.
 

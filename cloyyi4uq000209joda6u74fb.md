@@ -34,7 +34,7 @@ A few months went by, but for some reason, I kept thinking about my state manage
 
 *"Hey!" I thought to myself, "I should rewrite it as an NPM package".*
 
-That same night, it was exactly what I did - I wrote it as an independent NPM package. At the end of it all, it weighed 2kB (compared to Redux's 150kB), had zero dependencies and was so dead simple to use, that you could have set it up in just 3 lines of code.
+That same night, I did exactly that - I wrote it as an independent NPM package. At the end of it all, it weighed 2kB (compared to Redux's 150kB), had zero dependencies and was so dead simple to use, that you could have set it up in just 3 lines of code.
 
 ### I called it VSSM
 

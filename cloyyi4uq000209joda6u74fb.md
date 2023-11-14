@@ -44,7 +44,7 @@ You can check out the source code on [GitHub](https://github.com/lnahrf/Vssm). A
 
 The following day, I published my NPM package, and once again forgot all about it.
 
-Later that same year, I interviewed for two different companies for a full-stack developer role. I aced the interviews of the first company, which was a very established tech company. As a part of the interview process, they asked me to tell them about whether I code in my free time or if there are any open source projects I contributed to and so on.
+Later that same year, I interviewed in two different companies for a full-stack developer role. I aced the interviews of the first company, which was a very established tech company. As a part of the interview process, they asked me to tell them about whether I code in my free time or if there are any open source projects I contributed to and so on.
 
 The only cool thing I did back then was VSSM, so I told them about it. They were impressed with the idea that I built a "Redux alternative" all on my own.
 

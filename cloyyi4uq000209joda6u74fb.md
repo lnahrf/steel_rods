@@ -1,5 +1,5 @@
 ---
-title: "Javascript Proxy Magic: How I built a 2kB state manager with zero dependencies (and how it got me 2 different job offers)"
+title: "Javascript Proxy Magic: How I built a 2kB state manager with zero dependencies (and how it got me two different job offers)"
 datePublished: Tue Nov 14 2023 23:20:25 GMT+0000 (Coordinated Universal Time)
 cuid: cloyyi4uq000209joda6u74fb
 slug: javascript-proxy-magic-how-i-built-a-2kb-state-manager

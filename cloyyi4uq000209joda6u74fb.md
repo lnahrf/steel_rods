@@ -4,7 +4,7 @@ datePublished: Tue Nov 14 2023 23:20:25 GMT+0000 (Coordinated Universal Time)
 cuid: cloyyi4uq000209joda6u74fb
 slug: javascript-proxy-magic-how-i-built-a-2kb-state-manager
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1700003060508/20b07335-65f1-40ba-892d-458b541d5ecb.jpeg
-tags: javascript, web-development, redux, jobs
+tags: javascript, web-development, reactjs, redux, jobs
 
 ---
 

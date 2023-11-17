@@ -20,7 +20,9 @@ To understand electronic circuits, we need to first understand energy and theref
 
 > Electricity is the movement of electrons from point A to point B.
 
-Electrons are particles that hold a negative charge, and they are present in all matter. Under specific circumstances, electrons can flow through conductive materials, such as different metals. When electrons flow through electronic components, they "power" them (for example, an LED will light up when energy flows through it).
+Electrons are particles that hold a negative charge, and they are present in all matter. Under specific circumstances, electrons can flow through conductive materials, such as different metals. When electrons flow through electronic components, they "power" them (for example, an LED will light up when power flows through it).
+
+![](https://media.tenor.com/7HXxXDZdnEUAAAAd/palpatine.gif align="center")
 
 This gives us the ability to engineer circuits that are combined of multiple components, these components are powered with an electrical current and are working together to achieve a specific goal.
 
@@ -63,7 +65,7 @@ When electricity flows through a wire, we have two measurements that are importa
 
 Voltage is the potential amount of energy necessary to move one unit of charge (measured over time) between A and B (through a wire or circuit). In simpler terms:
 
-> Voltage refers to the amount of energy necessary to move electric charge from A to B.
+> Voltage refers to the amount of energy necessary to move current from A to B.
 
 Amperage (or amps for short), is the second measurement we need to take note of. Amps refer to the movement rate of electrons through a wire or circuit. If voltage is the energy required to move current through a wire, amps is the rate at which the current flows.
 
@@ -75,7 +77,7 @@ float power = voltage * amperage;
 
 In this example, the variable 'power' is the power measured in Watts (W), 'voltage' in volts, and 'amperage' in amps. When multiplying voltage with amperage we get the power measurement of a circuit or component.
 
-If my refrigerator requires 350 Watts to operate, we will need a power supply that can produce at least that amount of energy to run my fridge for a time period.
+If my refrigerator requires 350 Watts to operate, we will need a power supply that can produce at least that amount of energy to run my fridge for a period of time.
 
 Energy over time is measured in Watt Hours (Wh), to run my imaginary fridge for one hour we will need ***0.35kWh of energy*** (0.35 Kilowatt Hours).
 
@@ -130,7 +132,7 @@ In my calculation, I went for the average 3.3 volts and 0.2mA consumption, since
 float power = 3.3 * (0.2 / 1000); // 0.00066 watts or 0.66 milli-watts
 ```
 
-To calculate how many components we can hook up to an Arduino, we must know each component's power requirements. The power requirement of a component can be calculated using the following example (the values are made-up).
+To calculate how many components we can hook up to an Arduino, we must know each component's power requirements. The power requirement of a component can be calculated using the following example (the values are made up).
 
 ```cpp
 float power = volts * amps; // power in watts
@@ -152,11 +154,11 @@ float arduino = (5 * 50) / 1000; // 250mW / 1000 = 0.25w
 float total = component_a + component_b + component_c + arduino; // 2.395w
 ```
 
-Since the Arduino Uno can supply up to 2.5w of power through the 5v pin, we should be in the clear (although in real-life scenarios, it's always important to add a 20%-40% margin to account for component efficiency and power fluctuations). So in reality, we would probably need an external power supply to power some of these components, or find power-efficient alternatives.
+Since our Arduino can supply up to 2.5w of power through the 5v pin, we should be in the clear (although in real-life scenarios, it's always important to add a 20%-40% margin to account for component efficiency and power fluctuations). So in reality, we would probably need an external power supply to power some of these components, or find power-efficient alternatives.
 
 ### Calculating the required battery capacity
 
-We also know how to calculate the battery capacity we will need to run our circuit for a time period (in watt-hours).
+We also know how to calculate the battery capacity we will need to run our circuit for a preiod of time (in watt-hours).
 
 ```cpp
 float wh = volts * amps * hours;

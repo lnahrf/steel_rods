@@ -18,7 +18,7 @@ While "grinding LeetCode" is beneficial for you as an engineer - I would like to
 
 Yes, you've heard that right.
 
-![](https://media.tenor.com/Ng0W1g3a05MAAAAC/what-okay.gif align="left")
+![](https://media.tenor.com/Ng0W1g3a05MAAAAC/what-okay.gif align="center")
 
 Algorithms were never my strong suit, I probably cannot solve a lot of LeetCode's medium-difficulty questions in a reasonable time frame, not to talk about hard ones. But here I am, living proof that you can be a successful developer who is respected by his peers and has been working as an engineer for many years - without being an algorithmic megamind.
 
@@ -66,7 +66,7 @@ In both cases, I found a niche I liked and worked hard on improving my knowledge
 
 Have humility, you should never act as if your way is the only correct way. Even the most talented and experienced developers should know that they don't know everything.
 
-![](https://media.tenor.com/xkzH9Ozx1yIAAAAC/shrug-papadin-shrug.gif align="left")
+![](https://media.tenor.com/xkzH9Ozx1yIAAAAC/shrug-papadin-shrug.gif align="center")
 
 Software engineering is a very broad and opinionated field, beyond the agreed-upon standardizations there are many solutions and approaches that one might find good, amazing or horrible. Most of these are just opinions, and they don't matter much. Don't take criticism as a personal attack, and don't take personal opinions about software to heart.
 

@@ -30,10 +30,11 @@ In a large database, with hundreds of triggers and functions firing at every act
 
 ```sql
 SELECT 
-proname,
-prosrc 
+    proname,
+    prosrc 
 FROM pg_proc 
-WHERE prosrc LIKE '%variable_name%';
+WHERE prosrc 
+LIKE '%variable_name%';
 ```
 
 ### #2 Find which action triggers a specific function, on which table
@@ -42,15 +43,15 @@ Doubling down on the last query, we can use the following to tell us exactly whi
 
 ```sql
 SELECT 
-trigger_schema AS schema,
-event_object_table AS table,
-trigger_name,
-event_manipulation,
-action_timing, 
-action_statement 
+    trigger_schema AS schema,
+    event_object_table AS table,
+    trigger_name,
+    event_manipulation,
+    action_timing, 
+    action_statement 
 FROM information_schema.triggers
 WHERE trigger_name 
-LIKE '%name%'
+LIKE '%name%';
 ```
 
 ### #3 Query statistics: identify slow queries, their total execution time, and filter by users
@@ -102,35 +103,38 @@ Finally, the query I use to view query statistics.
 
 ```sql
 SELECT
-pguser.usename,
-stats.mean_exec_time,
-stats.min_exec_time,
-stats.max_exec_time,
-stats.calls,
-interval '1 millisecond' * stats.total_exec_time AS exec_time,
-interval '1 millisecond' * (stats.blk_read_time + stats.blk_write_time) AS io_time,
-query
+    pguser.usename,
+    stats.mean_exec_time,
+    stats.min_exec_time,
+    stats.max_exec_time,
+    stats.calls,
+    interval '1 millisecond' * stats.total_exec_time AS exec_time,
+    interval '1 millisecond' * (stats.blk_read_time + stats.blk_write_time) AS io_time,
+    query
 FROM pg_stat_statements stats
 LEFT JOIN pg_user pguser ON pguser.usesysid = stats.userid
-ORDER BY exec_time DESC LIMIT 100;
+ORDER BY 
+    exec_time DESC LIMIT 100;
 ```
 
 You can also add a filter to find the slowest queries of a specific Postgres user.
 
 ```sql
 SELECT
-pguser.usename,
-stats.mean_exec_time,
-stats.min_exec_time,
-stats.max_exec_time,
-stats.calls,
-interval '1 millisecond' * stats.total_exec_time AS exec_time,
-interval '1 millisecond' * (stats.blk_read_time + stats.blk_write_time) AS io_time,
-query
+    pguser.usename,
+    stats.mean_exec_time,
+    stats.min_exec_time,
+    stats.max_exec_time,
+    stats.calls,
+    interval '1 millisecond' * stats.total_exec_time AS exec_time,
+    interval '1 millisecond' * (stats.blk_read_time + 
+    stats.blk_write_time) AS io_time,
+    query
 FROM pg_stat_statements stats
 LEFT JOIN pg_user pguser ON pguser.usesysid = stats.userid
 WHERE pguser.usename = 'username'
-ORDER BY exec_time DESC LIMIT 100;
+ORDER BY 
+    exec_time DESC LIMIT 100;
 ```
 
 ### #4 Display current connections and the most recent operation
@@ -139,17 +143,17 @@ This one is most useful if you don't have access to a GUI Postgres client (such 
 
 ```sql
 SELECT 
-pid,
-usename AS username,
-application_name,
-client_addr AS ip,
-client_port AS port,
-backend_start AS operation_start,
-backend_type AS operation,
-wait_event AS waiting_for,
-state_change,
-state,
-query
+    pid,
+    usename AS username,
+    application_name,
+    client_addr AS ip,
+    client_port AS port,
+    backend_start AS operation_start,
+    backend_type AS operation,
+    wait_event AS waiting_for,
+    state_change,
+    state,
+    query
 FROM pg_stat_activity;
 ```
 
@@ -161,11 +165,11 @@ It is important to manage and optimize your indexes, having unused indexes may c
 
 ```sql
 SELECT
-	schemaname AS schema,
-	relname AS table,
-	indexrelname AS relation,
-	last_idx_scan,
-	indisunique AS is_unique,
+    schemaname AS schema,
+    relname AS table,
+    indexrelname AS relation,
+    last_idx_scan,
+    indisunique AS is_unique,
     idx_scan
 FROM pg_stat_user_indexes indexes
 LEFT JOIN pg_index ON pg_index.indexrelid = indexes.indexrelid
@@ -179,12 +183,14 @@ Another great query for index optimization is the following query, allowing you 
 
 ```sql
 SELECT 
-schemaname,
-tablename,
-indexname,
-pg_size_pretty(pg_total_relation_size(CONCAT(schemaname, '.', indexname))) 
+    schemaname,
+    tablename,
+    indexname,
+    pg_size_pretty(pg_total_relation_size(CONCAT(schemaname, '.', 
+indexname))) 
 FROM pg_indexes
-ORDER BY pg_size_pretty DESC;
+ORDER BY 
+    pg_size_pretty DESC;
 ```
 
 ### #7 Display table size on disk (heaviest tables)
@@ -194,8 +200,8 @@ Same as the previous query, but for tables - displays which table weighs the mos
 ```sql
 SELECT
     table_schema AS schema,
-	table_name AS table,
-	 pg_size_pretty(pg_total_relation_size(CONCAT(table_schema, '.', table_name))) AS size
+    table_name AS table,
+     pg_size_pretty(pg_total_relation_size(CONCAT(table_schema, '.', table_name))) AS size
 FROM information_schema.tables
 ORDER BY
     pg_total_relation_size(CONCAT(table_schema, '.', table_name)) DESC;
@@ -207,14 +213,15 @@ Got dead tuples? use the following query to find out which table needs a vacuum,
 
 ```sql
 SELECT 
-relname,
-last_vacuum,
-last_autovacuum,
-vacuum_count,
-autovacuum_count,
-n_dead_tup
+    relname,
+    last_vacuum,
+    last_autovacuum,
+    vacuum_count,
+    autovacuum_count,
+    n_dead_tup
 FROM pg_stat_user_tables 
-ORDER BY n_dead_tup DESC;
+ORDER BY 
+    n_dead_tup DESC;
 ```
 
 Keep this article in your browser bookmarks and come back to it every time you need one of these helpful queries.

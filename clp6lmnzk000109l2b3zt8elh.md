@@ -3,7 +3,7 @@ title: "Mastering Postgres Debugging: must-know queries for database troubleshoo
 datePublished: Mon Nov 20 2023 07:42:10 GMT+0000 (Coordinated Universal Time)
 cuid: clp6lmnzk000109l2b3zt8elh
 slug: mastering-postgres-debugging-must-know-queries-for-database-troubleshooting
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1700408313058/a4149e3b-f80a-475a-b007-9805e4138fd9.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/BxHnbYyNfTg/upload/9b97857b22daf3beca567f129dbfd407.jpeg
 tags: postgresql, databases, debugging, troubleshooting
 
 ---

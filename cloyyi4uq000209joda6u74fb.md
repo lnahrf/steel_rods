@@ -141,7 +141,7 @@ I built VSSM just to push my limits and publish a reasonable NPM package. It man
 
 Nobody will ever use VSSM, it will not be popular. I was aware of this fact when I published it to NPM. Yet I still chose to do it to the best of my abilities, because I had a passion for doing something that I conceive is better than the industry standard. I knew I could make something that had to be better, even if it meant it was just better for me.
 
-Even though VSSM is lying dead in the NPM graveyard, it brought me a lot of value and is continuing to do so because of this article.
+Even though VSSM is laying dead in the NPM graveyard, it brought me a lot of value and is continuing to do so because of this article.
 
 The best way to get a development job is to build amazing things, even if you think it all has been done before - build it better. Even if you think no one will ever use it, what is the point? - Build it now, value will come later.
 

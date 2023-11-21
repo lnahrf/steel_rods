@@ -102,7 +102,7 @@ You will also benefit from both backend and frontend caching — since rendering
 
 This is the section where everything comes together! I have put on my full-stack pants for this one. I am going to create a server that serves the map files and a front-end that renders them using Leaflet.
 
-I will use Node (with Express) for the backend because Express is simple, and simple is great (the same logic applies to any language or framework).
+I will use Node (with Express) for the backend because Express is simple, and simple is great 😁 (the same logic applies to any language or framework).
 
 ```javascript
 /* server.js */
@@ -178,7 +178,7 @@ Over in our Javascript tag, I configured Leaflet to fetch tiles from our server,
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700604404279/4eb0cf7d-a98b-4da1-8b2b-0e152c574210.png align="center")
 
-For us to serve our map tiles offline, you just have to include them in your binary and configure your version of Leaflet to use the local file path (it varies by environment, but the concept is the same).
+For us to serve our map tiles offline, you just have to include them in your environment and configure your version of Leaflet to use the local file path (it varies by environment, but the concept is the same).
 
 Now you know how to generate, serve and render maps using Leaflet, on multiple platforms and frameworks.
 

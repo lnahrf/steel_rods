@@ -35,7 +35,7 @@ But before we dive into Leaflet, we need to understand how digital maps work.
 
 A digital map (such as Google Maps) is a collection of images, often called *"tiles"* — a multi-layered image grid, organized by three parameters:
 
-1. Zoom level, indicated by Z (ranging from 0 to 16, where 0 is farthest away).
+1. Zoom level, indicated by Z (ranging from 0 to 22, where 0 is farthest away).
     
 2. Horizontal positioning, indicated by X.
     

@@ -68,15 +68,15 @@ The problem is that if we are going to use 'any' in our project, what is the poi
 
 ### Why transpile when you can just run?
 
-Java*script* is a scripting language, that runs on a piece of software called a runtime (V8 engine). The engine can execute Javascript code without having to go through the process of compiling it down to machine code ahead of time. Javascript executes in real-time (runtime) using a JIT (just-in-time) compiler.
+Javascript is a scripting language, that runs on a piece of software called a runtime (V8 engine). The engine can execute Javascript code without having to go through the process of compiling it down to machine code ahead of time. Javascript executes in real-time (runtime) using a JIT (just-in-time) compiler.
 
 That is the major - and probably only upside to using a scripting language over a compiled language (scripting languages are significantly slower when it comes to performance, but they offer the convenience of rapid development).
 
-When we use Typescript, we are essentially using a version of Javascript that has to be compiled down to Javascript. It gives you a false sense of security and something to do on the weekend after your backend developer changed one specific type in a commit of 200+ changes.
+When we use Typescript, we are essentially using a version of Javascript that has to be compiled down to Javascript. Not only that, but it also gives you a false sense of security and something to do on the weekend after your backend developer changed one specific type in a commit of 200+ changes.
 
 ### The language Typescript was supposed to be
 
-There is a hidden bright side to all of this. There is still hope for a strong, statically typed language that is just as versatile as Javascript! it's not Typescript, it's ***Dart!*** Dart is a programming language designed by **Lars Bak and Kasper Lund**, and developed by Google.
+There is a hidden bright side to all of this. There is still hope for a strong, statically typed language that is just as versatile as Javascript! it's not Typescript, it's ***Dart!*** Dart is a programming language designed by **Lars Bak and Kasper Lund** , and developed by Google.
 
 Published in late 2013, Dart is primarily used with Google's UI toolkit - Flutter. And is a Frankenstein-like hybrid of Java (OOP) and Javascript, but even better.
 

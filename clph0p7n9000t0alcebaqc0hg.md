@@ -32,6 +32,8 @@ Many will say Typescript is a programming *language*, but is it? I know, I know 
 
 It's a combination of "translate" and "compile" - Typescript "transpiles down" to Javascript.
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701124357609/826d96fb-f6dc-4026-9847-80bc32acb91e.jpeg align="center")
+
 Many developers I met throughout my career told me that Typescript is an amazing replacement or alternative to Javascript. At some point, I began to wonder whether they knew that Typescript's compilation target was, in fact, Javascript. If the output of your Typescript compilation is a .js source file - you are still using plain ol' JS!
 
 Javascript *is* the programming language that operates behind the scenes when you run a .ts file. Essentially, everything that Typescript does is check your pre-configured types on "compilation time" (transpilation time?)

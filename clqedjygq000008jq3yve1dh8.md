@@ -12,11 +12,11 @@ You probably knew this was coming sooner or later. [DEV.TO](http://DEV.TO) has b
 
 But before we continue, a short disclaimer.
 
-> This add-on and article were created as a somewhat satirical view of the situation. While the tool is completely functional, I do not intend to hurt other authors' feelings, or bash anyone for posting "listicles".
+> This add-on and article were created as a somewhat satirical view of the situation. While the tool is completely functional ([GitHub](https://github.com/lnahrf/no_listicles)), I do not intend to hurt other authors' feelings, or bash anyone for posting "listicles".
 
 ### What is a "Listicle"?
 
-A listicle (list article) is a low-quality, usually low-effort article that is a list. Listicles are often generated using some sort of AI, and while some might bring *some* value to readers, the vast majority of them are posted just for the sake of posting and not for the sake of teaching or passing on knowledge.
+A listicle (list article) is a usually low-quality, usually low-effort article that is a list. Listicles are often generated using some sort of AI, and while some might bring *some* value to readers, the vast majority of them are posted just for the sake of posting and not for the sake of teaching or passing on knowledge.
 
 ![](https://c.tenor.com/KfPxesRgzxAAAAAd/tenor.gif align="center")
 

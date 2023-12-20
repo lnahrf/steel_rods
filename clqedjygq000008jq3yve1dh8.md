@@ -26,11 +26,11 @@ Voila~ You have a listicle that is ready to steal the show.
 
 Personally (and I know many of you will agree with me), I find listicles quite useless and somewhat annoying. Their exaggerated titles, filled with emojis and buzzwords, aim to capture as much attention as possible while providing little to no value. Many authors have been sounding their opinions about listicles lately, and it feels like a good portion of the community is somewhat ticked off by the situation.
 
-#### [**The Conundrum of the "Top X" Articles 🤔**](https://dev.to/rgolawski/the-conundrum-of-the-top-x-articles-l55) **- by** [**Rafał Goławski**](https://dev.to/rgolawski)
+#### [**The Conundrum of the "Top X" Articles 🤔**](https://dev.to/rgolawski/the-conundrum-of-the-top-x-articles-l55) **\- by** [**Rafał Goławski**](https://dev.to/rgolawski)
 
-[**Dev.to and "The Missing Middle" Economics**](https://dev.to/terabytetiger/devto-and-the-missing-middle-economics-59ip) **- by** [Tyler V.](https://dev.to/terabytetiger)
+[**Dev . to and "The Missing Middle" Economics**](https://dev.to/terabytetiger/devto-and-the-missing-middle-economics-59ip) **\- by** [Tyler V.](https://dev.to/terabytetiger)
 
-[**Best Practices for Writing on DEV: Listicles**](https://dev.to/devteam/best-practices-for-writing-on-dev-listicles-16e5) **- by the DEV team**
+[**Best Practices for Writing on DEV: Listicles**](https://dev.to/devteam/best-practices-for-writing-on-dev-listicles-16e5) **\- by the DEV team**
 
 ### The (temporary) solution
 

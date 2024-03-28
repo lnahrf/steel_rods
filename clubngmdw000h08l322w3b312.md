@@ -54,7 +54,7 @@ Using the formula E = P \* T, an Nvidia A100 GPU power consumption on a high loa
 
 Adding on to this example: Midjourney (or other AI image generation as a service) generates 4 images for every prompt. Let's assume the service is using an array of Nvidia A100s to generate the images, which means that the service is probably wasting around 2 watt-hours of energy for each prompt, for each user.
 
-As of November 2023, Midjourney had 2.5 million DAUs.
+As of November 2023, Midjourney has 2.5 million DAUs.
 
 ```plaintext
 2Wh x 2,500,000 Users x 24 Hours = 120,000,000Wh (per day).

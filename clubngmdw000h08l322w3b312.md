@@ -12,7 +12,7 @@ Artificial intelligence is exciting, the fresh technological breakthrough that t
 
 While personally, I have some issues with AI tools and how they are being used currently, I cannot deny that they are a mighty instrument when given to the right person to do the right job - but as we all know, with great power comes great responsibility.
 
-![](https://c.tenor.com/PUe-3C77JOEAAAAC/tenor.gif align="center")
+![](https://c.tenor.com/RzzxRsZg-eoAAAAd/tenor.gif align="center")
 
 Amidst the excitement and semi-fulfilled promises - did we ever stop to think about the cost of running 1,2,3 billion parameter models for hours on end, scaled across multiple instances, for millions of users, all at once?
 

@@ -50,7 +50,7 @@ After some searching online, I concluded that the most commonly used enterprise 
 
 Nvidia A100 is massively more powerful (and built specifically for AI purposes) than an Nvidia GTX 1060. Therefore let's assume, that generating 1 image using an Nvidia A100 at a high load will take me 5 seconds (if anyone reading this has accurate data about the A100 and its performance, please share).
 
-Using the formula E = P \* T, an Nvidia A100 GPU power consumption on a high load for 5 seconds is around 0.5 watt-hours.
+Using the formula E = P \* T, an Nvidia A100 GPU power consumption on a high load for 5 seconds costs around 0.5 watt-hours.
 
 Adding on to this example: Midjourney (or other AI image generation as a service) generates 4 images for every prompt. Let's assume the service is using an array of Nvidia A100s to generate the images, which means that the service is probably wasting around 2 watt-hours of energy for each prompt, for each user.
 

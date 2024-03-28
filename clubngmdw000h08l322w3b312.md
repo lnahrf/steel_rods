@@ -58,11 +58,12 @@ As of November 2023, Midjourney has 2.5 million DAUs.
 
 ```plaintext
 2Wh x 2,500,000 Users x 24 Hours = 120,000,000Wh (per day).
+120,000,000Wh = 120,000MWh = Potentially power over 100,000 households for a whole month
 ```
 
 Modestly, services such as Midjourney, Dall-E, or even self-hosted solutions such as Fooocus, waste at least 50 million watt-hours per day, each (considering their GPUs are the most efficient and each DAU uses the service for a few hours every day).
 
-***This amount of energy could potentially power over 2,000 average-sized households per day.***
+***This amount of energy could potentially power over 50,000 average-sized households per day.***
 
 Keep in mind we are only talking about image generation as a service, let's not forget about all other AI services, such as ChatGPT, Gemini, Bard, and all of their versions. The list, and waste, goes on.
 

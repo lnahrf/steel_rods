@@ -4,7 +4,7 @@ datePublished: Thu Mar 28 2024 19:50:50 GMT+0000 (Coordinated Universal Time)
 cuid: clubngmdw000h08l322w3b312
 slug: ai-but-at-what-cost-the-energy-inefficient-ai-era-is-already-here
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711655369848/d6c6b41b-c5f3-4244-a57a-07d4a7e0c28b.png
-tags: ai, artificial-intelligence, web-development
+tags: ai, artificial-intelligence, web-development, machine-learning
 
 ---
 

@@ -8,10 +8,6 @@ tags: ai, artificial-intelligence, web-development, machine-learning
 
 ---
 
----
-
-## canonical\_url: [https://hackfm.com/ai-but-at-what-cost-the-energy-inefficient-ai-era-is-already-here](https://hackfm.com/ai-but-at-what-cost-the-energy-inefficient-ai-era-is-already-here)
-
 Artificial intelligence is exciting, the fresh technological breakthrough that took over our lives in less than a year, hasn't stopped since.
 
 Personally, I have some issues with AI tools and how they are being used at the moment. With that, I cannot deny that they are a mighty instrument when given to the right person to do the right job - but as we all know, with great power comes great responsibility.

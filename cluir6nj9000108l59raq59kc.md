@@ -28,7 +28,7 @@ But, this is not a sob story and the only thing that truly matters is the fact t
 
 Growing up, I often felt a specific feeling I could not explain. You probably know this uncanny, almost eerie sensation we get when we are looking at a large, empty space. It’s a phenomenon phrased as “liminal space” by the [folks at Reddit](https://www.reddit.com/r/LiminalSpace/) (I believe the term is taken from the [field of architecture](https://en.wikipedia.org/wiki/Liminal_space_(aesthetic))).
 
-Liminal spaces have always made my gut twist in a weird, yet exciting way – it’s like a calling, the space is looking at you just as much as you look at it. Many people describe this feeling as negative, creepy, or unsettling (and mostly, they are right). Large, empty spaces feel unnatural to us for some reason... But some spaces, very particularly vast spaces that are somewhat “liminal”, or maybe even “metaphysically liminal” - leave a positive effect on me.
+Liminal spaces have always made my gut twist in a weird, yet exciting way – it’s like a calling, the space is looking at you just as much as you are looking at it. Many people describe this feeling as negative, creepy, or unsettling (and mostly, they are right). Large, empty spaces feel unnatural to us for some reason... But some spaces, very particularly vast spaces that are somewhat “liminal”, or maybe even “metaphysically liminal” - leave a positive effect on me.
 
 This “calling” (for lack of a better word) is proof to me that there is something bigger than us out there, it’s proof there is magic to this world that we are unaware of, yet.
 

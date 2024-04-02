@@ -1,5 +1,5 @@
 ---
-title: "Just use cash! The importance of cash in a technological society (a privacy-centric opinion piece)"
+title: "The importance of cash in a technological society (a privacy-centric opinion piece)"
 datePublished: Thu Nov 09 2023 17:06:31 GMT+0000 (Coordinated Universal Time)
 cuid: clorfy1gj000j0ald0mal97gc
 slug: the-importance-of-cash-in-a-technological-society

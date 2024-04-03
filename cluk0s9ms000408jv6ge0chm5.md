@@ -8,21 +8,21 @@ tags: python, hacking, networking, cybersecurity-1
 
 ---
 
-This article is written for educational purposes only, *do not ever attempt to get access to a network without permission.*
+This article is written for educational purposes only, *do not ever attempt to hack a network without permission.*
 
-There are multiple ways to get into Wifi networks, it can be as straightforward as clicking a button or as complicated as extremely niche academic research. Some networks are “unhackable” in a realistic time frame, but most of them are between the *"extremely hackable"* and the *"somewhat hackable"* range.
+There are multiple ways to get into WiFi networks, it can be as straightforward as clicking a button or as complicated as extremely niche academic research. Some networks are “unhackable” in a realistic time frame, but most of them are between the *"extremely hackable"* and the *"somewhat hackable"* range.
 
-In this article, we will theoretically explain two relatively simple methods that are efficient (ROI-wise). To do so, we will need to understand basic WiFi hacking terminology.
+In this article, we will theoretically explain the basic concepts and methods required for you to get an idea of the process of hacking WiFi networks. To do so, we will need to understand some terminology.
 
 ### Handshake
 
-When a device is attempting to connect to a Wifi network, it exchanges multiple messages with the access point to establish a secure connection. A "handshake" is the name we give this process of exchanging information between a device and an access point upon connection. This information often contains the cryptographic hash of the network's password.
+When a device is attempting to connect to a WiFi network, it exchanges multiple messages with the access point to establish a secure connection. A "handshake" is the name we give this process of exchanging information between a device and an access point upon connection. This information often contains the cryptographic hash of the network's passcode.
 
-Capturing a handshake allows us to perform different offline attacks on the captured data, without raising alarms or being shut off by the access point.
+Capturing a handshake allows us to perform different offline attacks on the captured data, without raising alarms or being shut off by the access points' administrators.
 
 ### Pcap
 
-"Packet Capture" or .pcap is the file format we use to store the handshake information (or any packet data as a file). Using a .pcap file allows us to perform offline attacks to retrieve the key without ever touching the network itself.
+"Packet Capture" or .pcap is the file format we use to store the handshake information (or any packet data as a file). Using a .pcap file allows us to perform offline attacks to retrieve the key without ever interacting with the network itself.
 
 ### Packet
 
@@ -62,7 +62,7 @@ Let's say we have a hash, and we know the key to cracking it is comprised of som
 
 A dictionary attack is the same as a bruteforce attack, but this time we will iterate over a pre-defined wordlist and attempt to crack the hash using it instead of values generated during runtime.
 
-From my experience, both of these are the most probable methods of hacking WiFI networks. Once you have captured a handshake, you can write a script, or make a wordlist (which will turn this into a dictionary attack) of the required combinations and attempt to crack it using tools such as [Hashcat](https://hashcat.net/hashcat/).
+From my experience, both of these are the most probable methods of hacking WiFi networks. Once you have captured a handshake, you can write a script, or make a wordlist (which will turn this into a dictionary attack) of the required combinations and attempt to crack it using tools such as [Hashcat](https://hashcat.net/hashcat/).
 
 ### Jamming
 
@@ -70,11 +70,11 @@ Jamming is a broader concept relating to the RF field but also applies to the wo
 
 WiFi is essentially a radio frequency transmitted by a router on the 2.4Ghz or 5Ghz bands. Jamming is the process of interrupting the transmitted signal, by sending out "noise" and drowning the data transmitted and received by the router, on a specific band.
 
-It is important to know that Jamming a signal is a very different concept than De-authenticating.
+It is important to note that jamming a signal is a very different concept than de-authenticating.
 
 ### De-authentication Attack
 
-De-authentication is an attack where the attacker sends out a "de-authentication" signal (packet) which forces the access point (router) to disconnect from all devices for a brief second. Attackers use de-authentication to force routers to re-connect to nearby devices and thus transmit handshakes, that are then captured by the attackers.
+De-authentication is an attack where the attacker sends out a "de-authentication" signal (packet) that forces the access point (router) to disconnect from all devices for a brief second. Attackers use de-authentication to force routers to re-connect to nearby devices and thus transmit handshakes, that are then captured by the attackers.
 
 ### WEP, WPA and WPA2
 
@@ -82,13 +82,13 @@ WEP, WPA, and WPA2 are security protocols, designed to protect WiFi networks fro
 
 ### Example
 
-In this example, I will be describing an imaginary situation where an attacker could potentially hack into WiFi networks in my area.
+In this example, I will be describing an imaginary situation where an attacker could potentially hack into WiFi networks around my area.
 
-First, we need to capture the handshake. To capture a network's handshake we would usually need to wait patiently for the router to disconnect and reconnect to a device in its range (If we are lucky, this will happen at least once a day). To speed up the process we can send out a signal called a "de-authentication signal". The signal forces the access point to disconnect from all devices for a brief second.
+First, we need to capture a handshake. To capture a network's handshake we would usually need to wait patiently for the router to disconnect and reconnect to a device in its range (If we are lucky, this will happen at least once a day). To speed up the process we can send out a signal called a "de-authentication signal". The signal forces the access point to disconnect from all devices for a brief second.
 
 All we have to do is send out a de-authentication packet and attempt to capture a handshake at the same time. This is possible using the right NIC, and tools such as [aircrack-ng](https://www.aircrack-ng.org/doku.php?id=deauthentication).
 
-Once we have captured the handshake as a .pcap file, it's time to crack it. I don't recommend trying to throw random wordlists at it and hoping something will stick. Try and think about the area and the people, how do they act? Are they conscious about security? What will non-techy people write as their WiFi passcode? This will help narrow your options down and reduce the hacking process into a realistic timeframe.
+Once we have captured the handshake as a .pcap file, it's time to crack it. I don't recommend trying to throw random wordlists at it and hoping something will stick. Try and think about the area and the people living in it, how do they act? Are they conscious about security? What will non-techy people set as their WiFi passcode? This will help narrow down options and reduce the hacking process into a realistic timeframe.
 
 In my area, the majority of WiFi passwords are phone numbers in the following format:
 
@@ -96,9 +96,9 @@ In my area, the majority of WiFi passwords are phone numbers in the following fo
 0XXXXXXXXX
 ```
 
-All phone numbers in my area start with 0, the second digit will almost always be 5, and rarely 7. What is left for me to do is to comprise a word list of every possible number combination, 8 digits long (the remainder of our template, minus the initial 05).
+All phone numbers in my area start with 0, the second digit will almost always be 5, and rarely 7. What is left for me to do is to comprise a wordlist of every possible number combination, 8 digits long (the remainder of our template, minus the initial 05).
 
-To achieve this I have used a Python script:
+To achieve this I wrote a Python script:
 
 ```python
 import numpy as np
@@ -122,7 +122,7 @@ def main():
 if __name__ == "__main__": main()
 ```
 
-I used Python’s numpy library to generate all the required combinations and added the 2-digit static prefix to every line. The script took about 5 minutes to generate a list with a very large number of combinations. Now that we have our wordlist we can use tools like Hashcat and our GPU to crack the hash.
+I used Python’s numpy library to generate all the required combinations and added the 2-digit static prefix to every line. The script took about 5 minutes to generate a list with a lot of combinations. Now that we have our wordlist we can use tools like Hashcat and our GPU to crack the hash.
 
 ### Quicklinks
 

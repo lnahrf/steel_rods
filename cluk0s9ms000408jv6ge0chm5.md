@@ -133,3 +133,7 @@ I used Python’s numpy library to generate all the required combinations and ad
 [Spacehuhn's Deauther](https://github.com/SpacehuhnTech/esp8266_deauther)
 
 [Aircrack-ng](https://www.aircrack-ng.org/)
+
+### Who am I?
+
+My name is Lev, a self-proclaimed hacker and radio enthusiast, writing for my personal tech hub at [HackFM](https://hackfm.com/). I have been tinkering with computers for over a decade, and although I may not always be successful in putting them back together, I have gained some knowledge in the field. I currently work as a senior data engineer and I am always available for consulting or discussing anything tech-related. Want to write for [HackFM](https://hackfm.com/) or collaborate on a gritty technical article? Please let me know!

@@ -1,5 +1,7 @@
 ---
 title: "Demystifying electricity and power consumption for Arduino, embedded and IoT beginners"
+seoTitle: "Arduino & IoT Power Guide"
+seoDescription: "Unlock the secrets of electricity and power for Arduino and IoT projects, making complex concepts accessible for beginners"
 datePublished: Thu Nov 16 2023 06:00:10 GMT+0000 (Coordinated Universal Time)
 cuid: clp0s82tz000309jv0t2zfmep
 slug: demystifying-electricity-and-power-consumption-for-arduino-embedded-and-iot-beginners
@@ -200,6 +202,8 @@ float mah = wh * (1000 / volts); // 14400 mAh battery
 
 Realistically, you will be able to implement power-saving methodologies that will reduce this estimated consumption significantly. But it is still wise to estimate the worst possible amount of energy our circuit might consume when working on Arduino and IoT projects.
 
-Now that you understand some of the important terminology when it comes to Arduino power consumption, you should be able to use the examples given in this article and convert them to different devices, circuits and requirements.
+Now that you understand some of the important terminology when it comes to Arduino power consumption, you should be able to use the examples given in this article and convert them to different devices, circuits, and requirements.
 
-Happy hacking!
+### Who am I?
+
+Hi, my name is Lev, a self-proclaimed hacker and radio enthusiast, writing for my personal tech hub at [HackFM](https://hackfm.com/). I have been tinkering with computers for over a decade, and although I may not always be successful in putting them back together, I have gained some knowledge in the field. I currently work as a senior data engineer and I am always available for consulting or discussing anything tech-related. Want to write for [HackFM](https://hackfm.com/) or collaborate on a gritty technical article? Please let me know!

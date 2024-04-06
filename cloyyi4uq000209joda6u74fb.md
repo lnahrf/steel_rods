@@ -1,5 +1,7 @@
 ---
 title: "Javascript Proxy Magic: How I built a 2kB state manager with zero dependencies (and how it got me two different job offers)"
+seoTitle: "Building a 2kB Javascript Proxy State Manager"
+seoDescription: "Discover how a simple 2kB JavaScript state manager with zero dependencies led to job offers. VSSM: the brain-dead simple alternative to Redux"
 datePublished: Tue Nov 14 2023 23:20:25 GMT+0000 (Coordinated Universal Time)
 cuid: cloyyi4uq000209joda6u74fb
 slug: javascript-proxy-magic-how-i-built-a-2kb-state-manager
@@ -10,7 +12,7 @@ tags: javascript, web-development, reactjs, redux, jobs
 
 What is a state manager exactly? A state manager is a smart module that is capable of retaining session data (of an application or web application) and reacting to changes in the data.
 
-Are you a web developer? Ever used libraries such as Redux, Mobx or Zustand? Congratulations! You have used a state manager.
+Are you a web developer? Ever used libraries such as Redux, Mobx, or Zustand? Congratulations! You have used a state manager.
 
 I remember my first days trying to set up (the old) Redux for React. I get PTSD just thinking about all the unnecessary complications - dispatchers, reducers, middleware! I just wanted to declare some variables, *please make it stop*.
 
@@ -34,7 +36,7 @@ A few months went by, but for some reason, I kept thinking about my state manage
 
 *"Hey!" I thought to myself, "I should rewrite it as an NPM package".*
 
-That same night, I did exactly that - I wrote it as an independent NPM package. At the end of it all, it weighed 2kB (compared to Redux's 150kB), had zero dependencies and was so dead simple to use, that you could have set it up in just 3 lines of code.
+That same night, I did exactly that - I wrote it as an independent NPM package. At the end of it all, it weighed 2kB (compared to Redux's 150kB), had zero dependencies, and was so dead simple to use, that you could have set it up in just 3 lines of code.
 
 ### I called it VSSM
 
@@ -44,11 +46,11 @@ You can check out the source code on [GitHub](https://github.com/lnahrf/Vssm). A
 
 The following day, I published my NPM package, and once again forgot all about it.
 
-Later that same year, I interviewed in two different companies for a full-stack developer role. I aced the interviews of the first company, which was a very established tech company. As a part of the interview process, they asked me to tell them about whether I code in my free time or if there are any open source projects I contributed to and so on.
+Later that same year, I interviewed at two different companies for a full-stack developer role. I aced the interviews of the first company, which was a very established tech company. As a part of the interview process, they asked me to tell them about whether I code in my free time or if there are any open source projects I contributed to and so on.
 
 The only cool thing I did back then was VSSM, so I told them about it. They were impressed with the idea that I built a "Redux alternative" all on my own.
 
-On the other hand, I failed miserably in the second company's interview. I had blackouts, I was nervous and could not answer simple questions such as
+On the other hand, I failed miserably in the second company's interview. I had blackouts, I was nervous, and could not answer simple questions such as
 
 > "Does React re-render the entire application upon state changes, or does it only update the affected components and their children when using Redux?"
 
@@ -96,11 +98,11 @@ const proxyTarget = new Proxy(target, {
 proxyTarget.v = "world!" // v is now world!
 ```
 
-VSSM is built on proxies, it creates a layer between variable assignment and the rest of the code. Using a Proxy, you can set setters, getters and implement any sort of logic whenever the value of the target is manipulated or requested.
+VSSM is built on proxies, it creates a layer between variable assignment and the rest of the code. Using a Proxy, you can set setters, getters, and implement any sort of logic whenever the value of the target is manipulated or requested.
 
 VSSM is a bit more than just a proxy, it's an assortment of intelligent proxies that know whether the value you assigned to the variable is its new value or a callback method.
 
-For example, using VSSM you can set a state, listen to changes and emit an event with just a few lines of code.
+For example, using VSSM you can set a state, listen to changes, and emit an event with just a few lines of code.
 
 ```javascript
 import { createVSSM, createState } from 'vssm';
@@ -125,7 +127,7 @@ user.address = () => {
 user.address = 'P.Sherman 42 Wallaby Way, Sydney'
 ```
 
-As you can see, I made sure my state manager was as simple as they could be. My goal was to get rid of having to wrap your head around reducers, middlewares and extremely complicated configurations just to assign some variables.
+As you can see, I made sure my state manager was as simple as they could be. My goal was to get rid of having to wrap your head around reducers, middlewares, and extremely complicated configurations just to assign some variables.
 
 Now, everything works by assigning variables! Want to set up a listener? Assign a callback function to the variable. Want to edit the value and emit an event? Just assign a new value.
 
@@ -141,10 +143,14 @@ I built VSSM just to push my limits and publish a reasonable NPM package. It man
 
 Nobody will ever use VSSM, it will not be popular. I was aware of this fact when I published it to NPM. Yet I still chose to do it to the best of my abilities, because I had a passion for doing something that I conceive is better than the industry standard. I knew I could make something that had to be better, even if it meant it was just better for me.
 
-Even though VSSM is laying dead in the NPM graveyard, it brought me a lot of value and is continuing to do so because of this article.
+Even though VSSM is lying dead in the NPM graveyard, it brought me a lot of value and is continuing to do so because of this article.
 
 The best way to get a development job is to build amazing things, even if you think it all has been done before - build it better. Even if you think no one will ever use it, what is the point? - Build it now, value will come later.
 
 Do not underestimate your abilities, if you believe they are lacking, know that you will improve. Go out there and build projects that bring value, one small step at a time.
 
 Good luck on your engineering journey.
+
+### Who am I?
+
+Hi, my name is Lev, a self-proclaimed hacker and radio enthusiast, writing for my personal tech hub at [HackFM](https://hackfm.com/). I have been tinkering with computers for over a decade, and although I may not always be successful in putting them back together, I have gained some knowledge in the field. I currently work as a senior data engineer and I am always available for consulting or discussing anything tech-related. Want to write for [HackFM](https://hackfm.com/) or collaborate on a gritty technical article? Please let me know!

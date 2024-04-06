@@ -1,5 +1,7 @@
 ---
 title: "AI, but at what cost? The energy-inefficient AI era is already here"
+seoTitle: "Energy Costs of Inefficient AI Era"
+seoDescription: "Explore the hidden environmental cost of AI's rapid advancement and its massive energy consumption, urging a shift towards sustainable tech practices"
 datePublished: Thu Mar 28 2024 19:50:50 GMT+0000 (Coordinated Universal Time)
 cuid: clubngmdw000h08l322w3b312
 slug: ai-but-at-what-cost-the-energy-inefficient-ai-era-is-already-here
@@ -72,3 +74,7 @@ Keep in mind we only talked about image generation services, let's not forget ab
 ### What should we do?
 
 How should we, as developers, come together to address this emerging issue? How can we take measures to educate others to use energy responsibly? I would love to hear your thoughts about this topic and its possible solutions in the comments below.
+
+### Who am I?
+
+Hi, my name is Lev, a self-proclaimed hacker and radio enthusiast, writing for my personal tech hub at [HackFM](https://hackfm.com/). I have been tinkering with computers for over a decade, and although I may not always be successful in putting them back together, I have gained some knowledge in the field. I currently work as a senior data engineer and I am always available for consulting or discussing anything tech-related. Want to write for [HackFM](https://hackfm.com/) or collaborate on a gritty technical article? Please let me know!

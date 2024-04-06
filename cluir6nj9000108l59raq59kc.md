@@ -1,5 +1,7 @@
 ---
 title: "Space, life, and feelings I cannot explain"
+seoTitle: "Space, life, and feelings I cannot explain"
+seoDescription: "Explore Lev's journey: from a challenging childhood to a data engineer with a deep connection to liminal spaces and the mysteries of the universe"
 datePublished: Tue Apr 02 2024 19:09:27 GMT+0000 (Coordinated Universal Time)
 cuid: cluir6nj9000108l59raq59kc
 slug: space-life-and-feelings-i-cannot-explain
@@ -55,3 +57,7 @@ I believe that being a developer is not just about our technical knowledge or ex
 Thank you for taking the time to read this far! I tried to offer a glimpse of myself in this article. I hope I succeeded, and that you resonated with my story and were able to get to know me a little better. Hopefully, I could get to know you a little bit better as well.
 
 I would like it if you could write your own introduction article, because we all have a story, a drive, and a reason for being here, and I would love to know yours.
+
+### Who am I?
+
+Hi, my name is Lev, a self-proclaimed hacker and radio enthusiast, writing for my personal tech hub at [HackFM](https://hackfm.com/). I have been tinkering with computers for over a decade, and although I may not always be successful in putting them back together, I have gained some knowledge in the field. I currently work as a senior data engineer and I am always available for consulting or discussing anything tech-related. Want to write for [HackFM](https://hackfm.com/) or collaborate on a gritty technical article? Please let me know!

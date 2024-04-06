@@ -1,5 +1,7 @@
 ---
 title: "Mastering Postgres Debugging: must-know queries for database troubleshooting"
+seoTitle: "Key Postgres Debugging Queries"
+seoDescription: "Learn expert Postgres debugging queries to efficiently troubleshoot and resolve database issues, enhancing your skills"
 datePublished: Mon Nov 20 2023 07:42:10 GMT+0000 (Coordinated Universal Time)
 cuid: clp6lmnzk000109l2b3zt8elh
 slug: mastering-postgres-debugging-must-know-queries-for-database-troubleshooting
@@ -227,3 +229,7 @@ ORDER BY
 Keep this article in your browser bookmarks and come back to it every time you need one of these helpful queries.
 
 Happy Postgres troubleshooting!
+
+### Who am I?
+
+Hi, my name is Lev, a self-proclaimed hacker and radio enthusiast, writing for my personal tech hub at [HackFM](https://hackfm.com/). I have been tinkering with computers for over a decade, and although I may not always be successful in putting them back together, I have gained some knowledge in the field. I currently work as a senior data engineer and I am always available for consulting or discussing anything tech-related. Want to write for [HackFM](https://hackfm.com/) or collaborate on a gritty technical article? Please let me know!

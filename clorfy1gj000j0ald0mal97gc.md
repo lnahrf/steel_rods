@@ -1,5 +1,7 @@
 ---
 title: "The importance of cash in a technological society (a privacy-centric opinion piece)"
+seoTitle: "Privacy in Cash Use: A Necessity in Today's Tech Society"
+seoDescription: "Exploring cash's key role in privacy and freedom, highlighting cashless society risks and data mining"
 datePublished: Thu Nov 09 2023 17:06:31 GMT+0000 (Coordinated Universal Time)
 cuid: clorfy1gj000j0ald0mal97gc
 slug: the-importance-of-cash-in-a-technological-society
@@ -8,7 +10,7 @@ tags: ai, data-science, privacy, finance, politics
 
 ---
 
-> *Edit (14/11/2023): This got a lot of attention on HackerNews, check out interesting perspectives and comments in here:* [*HackerNews*](https://news.ycombinator.com/item?id=38239286)
+> *Edit (14/11/2023): This got a lot of attention on HackerNews, check out interesting perspectives and comments in here:*[*HackerNews*](https://news.ycombinator.com/item?id=38239286)
 
 Just a heads up, this article is written from a strong perspective on privacy, autonomy, and financial freedom (with a focus on data mining, AI, and the future). If you prefer less opinionated pieces, you may want to skip this one. However, if you are open to a civil discussion about these topics, you are always welcome to comment.
 
@@ -18,15 +20,15 @@ Think about the implications of such a reality, every decision you make will hav
 
 **Sounds like a dystopian fantasy right?**
 
-This is the world we are heading into in the next two to three decades, and that is why it is critically important you understand the importance of physical cash in a free, functioning and technical society.
+This is the world we are heading into in the next two to three decades, and that is why it is critically important you understand the importance of physical cash in a free, functioning, and technical society.
 
 You have probably noticed the global trend that is making it harder and harder for us to use cash in our daily lives. In my home country, you cannot use cash to pay for certain goods and services (credit only). Coincidentally (or not) these goods and services are often controlled by, or directly attached or affiliated with a governing entity. There is also a risk of criminal charges for business owners willing to accept more than a certain amount of cash from a client, and it is illegal to hold more than a certain amount of cash in your possession, at all times.
 
 This global trend is being pushed relentlessly which is why it is important to understand what the absence of cash truly means for us, the people.
 
-Our world is functioning on exchangeable currencies, this was the way humans operated from the beginning of time. The actual currency and methods of payment changed over the years – if you go back long enough, you will notice we have used barter systems that exchanged goods and services for other goods and services. Throughout history, we have used rare gems like diamonds, rubies and sapphires – which are a finite natural resource. We have also used precious metals like gold and silver – which are also finite, and therefore – hold value.
+Our world is functioning on exchangeable currencies, this was the way humans operated from the beginning of time. The actual currency and methods of payment changed over the years – if you go back long enough, you will notice we have used barter systems that exchanged goods and services for other goods and services. Throughout history, we have used rare gems like diamonds, rubies, and sapphires – which are a finite natural resource. We have also used precious metals like gold and silver – which are also finite, and therefore – hold value.
 
-Crypto currencies are another example of finite currencies (depending on each protocol), and therefore they hold value. However, in the past couple of years, I began to see signs that the crypto market is also being controlled and manipulated. So crypto-currencies are not a viable solution to the issue this article is about (they are just an example of a finite currency).
+Cryptocurrencies are another example of finite currencies (depending on each protocol), and therefore they hold value. However, in the past couple of years, I began to see signs that the crypto market is also being controlled and manipulated. So crypto-currencies are not a viable solution to the issue this article is about (they are just an example of a finite currency).
 
 **Notice the trend – throughout history, currencies have always held some sort of real-life bound value, that is finite.**
 
@@ -50,9 +52,9 @@ You are probably thinking “What is the problem? Carrying around cash is messy 
 
 First, let’s talk about the obvious reasons cash is important for our society.
 
-**Financial Freedom:** having your physical cash is important for your financial freedom, the fact you can spend, store, invest or do whatever you want with your hard-earned money without interference is crucial for your well-being. If you want to buy anything (within your rights as a human being) you should be able to do so.
+**Financial Freedom:** having your physical cash is important for your financial freedom, the fact you can spend, store, invest, or do whatever you want with your hard-earned money without interference is crucial for your well-being. If you want to buy anything (within your rights as a human being) you should be able to do so.
 
-**Financial Control:** Owning physical cash means you will never be bound by banks or entities that usually want to limit, influence or pinpoint your financial actions and decisions.
+**Financial Control:** Owning physical cash means you will never be bound by banks or entities that usually want to limit, influence, or pinpoint your financial actions and decisions.
 
 I will give the tiniest example from my personal life - these past few weeks a dear family member has been trying to take out a sum of money from their bank in the form of cash. However, they very quickly encountered irrelevant and overblown bureaucracy (even though it was their money). This prevented them from withdrawing the money until they complied with certain regulations that the bank required them to comply with.
 
@@ -66,17 +68,17 @@ A healthy, legal grey market keeps the cash circulation going because ordinary p
 
 It is also worth mentioning that if society went completely cashless, we would be solely dependent on a software system – which (I am sure we can all agree) are all just sand castles riddled with bugs and potential exploits, waiting for a wave big enough to wash them away (or raise a critical bug alert on a Friday night).
 
-Just a pessimistic thought away, these governing entities might be able to block you, your family and your friends from purchasing or accessing goods and services, since they control the only method of payment (take a look at China’s social credit system).
+Just a pessimistic thought away, these governing entities might be able to block you, your family, and your friends from purchasing or accessing goods and services, since they control the only method of payment (take a look at China’s social credit system).
 
 Another issue with being completely dependent on software is that during a catastrophic event that tears down or renders our infrastructure useless, it is safe to assume you will not have access to your money (which is crucial for your survival and well-being).
 
 ### Okay, physical cash is important for financial freedom, but is it the end of the world if our cash just went digital? Isn’t that the natural course of things in our technological society?
 
-Great question, glad you asked, but there is more to it! Living in a world where all of your transactions and microtransactions are controlled, and monitored – practically means that you live in a world where you have no control over your actions. It is a world where every move you make is recorded, processed and sent to multiple systems for reference and collection.
+Great question, glad you asked, but there is more to it! Living in a world where all of your transactions and microtransactions are controlled, and monitored – practically means that you live in a world where you have no control over your actions. It is a world where every move you make is recorded, processed, and sent to multiple systems for reference and collection.
 
-Our society is only functioning because of the control (autonomy) we have over our (financial) actions and decisions. It is crucial to maintain the financial status quo (or even better, get rid of fiat entirely) and give as much control as possible to the people, not to corporations, banks or governing entities.
+Our society is only functioning because of the control (autonomy) we have over our (financial) actions and decisions. It is crucial to maintain the financial status quo (or even better, get rid of fiat entirely) and give as much control as possible to the people, not to corporations, banks, or governing entities.
 
-With the modern rise of the World Wide Web, corporations and the like understood that the most valuable currency out there is… data! The reason that services like WhatsApp, Facebook or Twitter are free, is because your data is the product up for sale. Your data, my data, essentially all of our data is being processed and sold from entity A to entity B to entity C and then back to entity A and all over again.
+With the modern rise of the World Wide Web, corporations and the like understood that the most valuable currency out there is… data! The reason that services like WhatsApp, Facebook, or Twitter are free, is because your data is the product up for sale. Your data, my data, essentially all of our data is being processed and sold from entity A to entity B to entity C and then back to entity A and all over again.
 
 ### What is the goal of such extensive data mining and processing?
 
@@ -86,7 +88,7 @@ They essentially want to know everything about you (down to the most intrinsic d
 
 Eventually, in years to come, when society will become more and more digital and therefore centralized - In one way or another, subtly or blatantly, you will not fit into the exact template of their perfect citizen. When that happens know that it was this article that tried to warn you.
 
-They will own the data of your transactions, your location history, your daily routines, your hobbies, your diet, your sleep schedule, your sexual orientation, your health conditions and more.
+They will own the data of your transactions, your location history, your daily routines, your hobbies, your diet, your sleep schedule, your sexual orientation, your health conditions, and more.
 
 All of this information and more can be withdrawn from your transactional history, and it’s all done automatically using sophisticated software and AI.
 
@@ -98,7 +100,7 @@ Take a look at how much information can be extracted about a single person from 
 
 The same approach is used by social media companies to show you targeted advertisements, and present content that will appeal to you (or piss you off), and make you spend more time engaging with the platform.
 
-Take a look at the color of the transaction and the nodes withdrawn from that transaction. The optional nodes (marked with a ?) are not conclusive and will be made conclusive, narrowed down or expanded when more data is presented to the algorithm.
+Take a look at the color of the transaction and the nodes withdrawn from that transaction. The optional nodes (marked with a ?) are not conclusive and will be made conclusive, narrowed down, or expanded when more data is presented to the algorithm.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699545856694/8a7b3119-2c64-48e9-bffc-1730452dc58a.png align="center")
 
@@ -160,8 +162,12 @@ As you can see, both I and GPT came to very similar conclusions. Imagine what is
 
 ### Conclusion - Just use cash!
 
-With the emerging “Internet of Things”, where every aspect of your life will be connected to the cloud – every single aspect of your life will eventually be monitored, processed and sold as data. If such entities record and process every single transaction and interaction you make, after a relatively short period – they will know everything there is to know about you.
+With the emerging “Internet of Things”, where every aspect of your life will be connected to the cloud – every single aspect of your life will eventually be monitored, processed, and sold as data. If such entities record and process every single transaction and interaction you make, after a relatively short period – they will know everything there is to know about you.
 
 This article is not meant to scare you about the future, it is just meant to make you aware of the current situation, of the importance of your data, and of the importance of cash in a free and functioning society.
 
 The bottom line is: Just use cash! Whenever you can, wherever you can. Endorse the use of cash and do not promote businesses that exclusively rely on credit. If you come across a business that refuses cash, point them to this article and kindly let them know that the use of cash is beneficial for all of us.
+
+### Who am I?
+
+Hi, my name is Lev, a self-proclaimed hacker and radio enthusiast, writing for my personal tech hub at [HackFM](https://hackfm.com/). I have been tinkering with computers for over a decade, and although I may not always be successful in putting them back together, I have gained some knowledge in the field. I currently work as a senior data engineer and I am always available for consulting or discussing anything tech-related. Want to write for [HackFM](https://hackfm.com/) or collaborate on a gritty technical article? Please let me know!

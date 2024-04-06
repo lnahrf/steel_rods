@@ -1,5 +1,7 @@
 ---
 title: "Hacking WiFi 101: basic concepts, terminology, and a real-life example"
+seoTitle: "WiFi Hacking Overview: Basics, Terms, Real Example"
+seoDescription: "Explore WiFi hacking fundamentals, terms, and practical methods, including security protocols and attacks, for educational use"
 datePublished: Wed Apr 03 2024 16:25:58 GMT+0000 (Coordinated Universal Time)
 cuid: cluk0s9ms000408jv6ge0chm5
 slug: hacking-wifi-101-basic-concepts-terminology-and-a-real-life-example
